@@ -11,6 +11,6 @@ flatpak --user remote-add --no-gpg-verify --if-not-exists helloflatpakqtrepo rep
 echo -e "\e[34mtry to uninstall the old flatpak\e[0m"
 flatpak --user uninstall org.test.Helloflatpakqt
 echo -e "\e[34minstall the flatpak\e[0m"
-flatpak --user install helloflatpakrepo org.test.Helloflatpakqt
+flatpak --user install helloflatpakqtrepo org.test.Helloflatpakqt
 echo -e "\e[34mrun the flatpak\e[0m"
 flatpak run org.test.Helloflatpakqt
