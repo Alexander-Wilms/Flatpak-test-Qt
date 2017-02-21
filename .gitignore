@@ -2,3 +2,4 @@ helloflatpakqt
 repo
 .flatpak-builder
 build-HelloFlatpakQt-Desktop-Debug
+build

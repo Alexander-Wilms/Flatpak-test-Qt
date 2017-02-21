@@ -1,5 +1,5 @@
 project('HelloFlatpakQt', 'cpp')
-
+add_global_arguments('-std=c++11',language:'cpp')
 qt5_dep = dependency('qt5', modules: 'Widgets')
 
 # Import theextension module that knows how
